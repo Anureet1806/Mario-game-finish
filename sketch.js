@@ -12,20 +12,20 @@ var count = 0;
 var coincount = 0;
 var instruct;
 function preload(){
-  bg = loadImage("images/bg.png");
-  groundimg = loadImage("images/ground.png");
-  marioimg = loadAnimation("images/mario1.png","images/mario2.png");
-  pipesimg =loadImage("images/pipes.png");
-  cloudsimg =loadImage("images/cloud.png");
-  mario_deadimg = loadAnimation("images/mario_dead.png");
-  gameoverimg = loadImage("images/gameOver.png");
-  restartImg = loadImage("images/restart.png");
-  bulletimg = loadImage("images/bullet.png");
-  enemyimg =loadAnimation("images/enemy1.png","images/enemy2.png");
-	enemy_dieimg =loadAnimation("images/enemy1.png");
-	marioheadimg = loadImage("images/mario-head.png");
-	coinimg = loadImage("images/coin.png");
-	textimg = loadImage("images/text.png");
+  bg = loadImage("bg.png");
+  groundimg = loadImage("ground.png");
+  marioimg = loadAnimation("mario1.png","mario2.png");
+  pipesimg =loadImage("pipes.png");
+  cloudsimg =loadImage("cloud.png");
+  mario_deadimg = loadAnimation("mario_dead.png");
+  gameoverimg = loadImage("gameOver.png");
+  restartImg = loadImage("restart.png");
+  bulletimg = loadImage("bullet.png");
+  enemyimg =loadAnimation("enemy1.png","enemy2.png");
+	enemy_dieimg =loadAnimation("enemy1.png");
+	marioheadimg = loadImage("mario-head.png");
+	coinimg = loadImage("coin.png");
+	textimg = loadImage("text.png");
 }
 
 function setup() { 
